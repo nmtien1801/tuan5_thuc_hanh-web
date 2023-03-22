@@ -1,3 +1,6 @@
+*{
+    margin-left: 0;
+}
 ul {
     list-style: none;
 }
@@ -6,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+.container{
+    width: 1200px;
+    margin: 0;
+}
 .header {
     border-bottom: 1px solid darkgrey;
 }
@@ -14,7 +21,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    
 }
 
 .pnl_logo {
@@ -92,9 +99,8 @@ a {
 
 /* banner */
 
-.banner {
+.top{
     padding-left: 200px;
-    width: 1200px;
 }
 
 .pnl_home {
@@ -150,62 +156,381 @@ a {
 
 /* center */
 
-.center {}
+.center {
+    border-bottom: 1px solid darkgrey;
+
+}
 
 .con_imgage_center {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    justify-content: space-between;
 
-.image_1 img {
-    width: 500px;
-    height: 490px;
+    margin-left: 200px;
 }
-
-.pnl_image_2 img {
-    width: 300px;
-    padding: 10px;
+.image_1{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
 }
-
-.pnl_image_3 img {
-    width: 300px;
-    padding: 10px;
+.image_1 img{
+    width: 400px;
+    height: 400px;
 }
-
-.con_product_desc {
+.pnl_image_2{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
     flex-direction: column;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.pnl_image_3{
+    width: 400px;
+    height: 400px;
+    border: 1px solid black;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lb_image2_1{
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.lb_image2_2{
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.lb_image3_1{
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.lb_image3_2{
+    width: 350px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+}
+.lb_image2_1 img{
+    width: 350px;
+    height: 180px;
+}
+.lb_image2_2 img{
+    width: 350px;
+    height: 150px;
+}
+.lb_image3_1 img{
+    width: 350px;
+    height: 180px;
+}
+.lb_image3_2 img{
+    width: 350px;
+    height: 150px;
+}
+.con_product_desc {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-bottom: 40px;
 }
 
-.pnl_product_desc {}
+.pnl_product_desc {
+
+}
 
 .lb_product_desc {
     font-size: 22px;
     font-weight: bold;
+    margin-top: 30px;
+    
 }
 
-.text_area {}
+.text_area {
+    margin-top: 10px;
+}
 
 .con_free_delivery {
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
+    width: 500px;
 }
 
-.pnl_free_delivery {}
+.pnl_free_delivery div {
+    margin-top: 5px;
+}
 
-.pnl_day_return {}
+.pnl_day_return div {
+    margin-top: 5px;
+}
 
-.con_buy_now {
-    position: relative;
+.pnl_buy_now {
+    width: 500px;
     border: 1px solid rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    padding: 10px;
+}
+.cost{
+    display: flex;
+    justify-content: right;
+}
+.pnl_color{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.pnl_color select{
+    margin-top: 5px;
+}
+.pnl_total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }
 
-.lb_cost {}
+.btn_buyNow{
+    margin-top: 10px;
+    height: 30px;
+    border: 1px solid aqua;
+    background-color: aqua;
+    color: aliceblue;
+    padding-left: 100px;
+    width: 150px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+.btn_add_to_cart{
+    margin-top: 10px;
+    height: 30px;
+    border: 1px solid aqua;
+    background-color: white;
+    color:  aqua;
+    padding-left: 100px;
+    width: 150px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+/* bottom */
+.con_review{
+    margin-left: 200px;
+}
+.pnl_review_show{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.pnl_review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lb_review{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 0;
+}
+.lb_start{
+    margin-left: 10px;
 
-.pnl_select {}
+}
+.lb_99{
+    margin-left: 10px;
+}
+.pnl_show_all_review{
+    color: darkgray;
+}
 
-.pnl_total {}
+.con_avatar_double{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+}
+.con_avarta{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 500px;
+}
 
-.pnl_buy {}
+.pnl_avarta{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.lb_avarta{
+    margin-left: 0;
+}
+.lb_name{
+    margin-left: 10px;
+}
+.lb_status{
+    margin-left: 10px;
+    color: darkgray;
+}
+
+
+.con_related{
+    margin-left: 200px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid grey;
+}
+.pnl_related{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lb_ralated{
+    font-size: 24px;
+    font-weight: bold;
+}
+.lb_seeMore{
+    color: darkgray;
+}
+.con_product{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pnl_bottom_product{
+
+}
+.lb_img_product{
+    border: 1px solid black;
+    width: 220px;
+    height: 200px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.lb_img_product img{
+    height: 200px;
+}
+.lb_product_title_bot{
+    font-size: 18px;
+    font-weight: bold;
+}
+.lb_cost{
+    color: aqua;
+}
+.lb_start_bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lb_item_sold{
+    color: darkgray;
+}
+
+/* footer */
+.footer{}
+.con_footer{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lb_footer_logo{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.lb_subscribe{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.pnl_subcribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.btn_subscribe{
+    color: white;
+    background-color: aqua;
+    margin-left: 10px;
+}
+.con_footer_detail{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 600px;
+}
+.pnl_product_footer{}
+.lb_product_footer{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.lb_features{
+    margin-top: 10px;
+}
+.lb_pricing{
+    margin-top: 10px;
+}
+.pnl_resources{
+    margin-left: 20px;
+}
+.lb_resources{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.lb_blog{
+    margin-top: 10px;
+}
+.lb_user_guides{
+    margin-top: 10px;
+}
+.lb_webinars{
+    margin-top: 10px;
+}
+.pnl_company{
+    margin-left: 20px;
+}
+.lb_company{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.lb_about_us{
+    margin-top: 10px;
+}
+.lb_contact_us{
+    margin-top: 10px;
+}
+.pnl_plan{
+    margin-left: 20px;
+}
+.lb_plan_pricing{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.lb_personal{
+    margin-top: 10px;
+}
+.lb_start_up{
+    margin-top: 10px;
+}
+.lb_organization{
+    margin-top: 10px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+.span img{
+    margin-left: 10px;
+}
