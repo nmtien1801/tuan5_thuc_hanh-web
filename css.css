@@ -1,0 +1,89 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    border-bottom: 1px solid darkgrey;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pnl_logo {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 8px;
+}
+
+.lb_logo {}
+
+.pnl_menu {
+    padding: 8px;
+}
+
+.pnl_menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pnl_menu ul li {
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+
+/* .pnl_menu ul li:hover {
+    color: cyan;
+} */
+
+.lb_home {
+    position: relative;
+    color: cyan;
+}
+
+.lb_home::after {
+    position: absolute;
+    top: 110%;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: cyan;
+}
+
+.lb_promotion {}
+
+.lb_bestsaleler {}
+
+.lb_newrelease {}
+
+.lb_support {}
+
+.pnl_search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textfiel_search {}
+
+.lb_chuong {
+    margin-left: 20px;
+}
+
+.lb_store {
+    margin-left: 20px;
+}
+
+.lb_avarta {
+    margin-left: 20px;
+}
