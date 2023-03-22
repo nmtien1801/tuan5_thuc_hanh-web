@@ -14,6 +14,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1200px;
 }
 
 .pnl_logo {
@@ -87,3 +88,124 @@ a {
 .lb_avarta {
     margin-left: 20px;
 }
+
+
+/* banner */
+
+.banner {
+    padding-left: 200px;
+    width: 1200px;
+}
+
+.pnl_home {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pnl_home .lb_home_top {
+    color: darkgrey;
+}
+
+.lb_categori {
+    margin-left: 10px;
+    color: darkgrey;
+}
+
+.lb_product_title {
+    margin-left: 10px;
+}
+
+.pnl_product_title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.con_rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+}
+
+.pnl_rating {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.lb_start {}
+
+.lb_42D {
+    margin-left: 10px;
+}
+
+.lb_review {
+    margin-left: 10px;
+}
+
+
+/* center */
+
+.center {}
+
+.con_imgage_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_1 img {
+    width: 500px;
+    height: 490px;
+}
+
+.pnl_image_2 img {
+    width: 300px;
+    padding: 10px;
+}
+
+.pnl_image_3 img {
+    width: 300px;
+    padding: 10px;
+}
+
+.con_product_desc {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pnl_product_desc {}
+
+.lb_product_desc {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.text_area {}
+
+.con_free_delivery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pnl_free_delivery {}
+
+.pnl_day_return {}
+
+.con_buy_now {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.lb_cost {}
+
+.pnl_select {}
+
+.pnl_total {}
+
+.pnl_buy {}
